@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Home Page Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>GitHub Repository Analyzer</h1>
+            <p>Analyze any GitHub repository by pasting its link below!</p>
+            <input type="text" id="repo-url" placeholder="Enter GitHub Repository URL" />
+            <button id="analyze-btn">Analyze</button>
+        </div>
+    </header>
+
+    <!-- About Section with Image -->
+    <!-- <section class="about" id="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/250" alt="About GitHub Repository Analyzer" />
+                </div>
+                <div class="about-text">
+                    <h2>About This Tool</h2>
+                    <p>This tool allows you to analyze any GitHub repository. By simply entering the repository URL, you
+                        will get detailed insights into the repository's data, including the creator's information, such
+                        as name, avatar, and bio.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Display Section (Initially hidden) -->
+    <div class="results-container" id="results-container" ">
+        <div class=" repository-details" id="repo-details">
+        <!-- Repository Details will be displayed here -->
+    </div>
+    <div class="creator-details" id="creator-details">
+        <!-- Creator Details will be displayed here -->
+    </div>
+    </div>
+
+
+    <!-- <footer>
+        <p>Created by Git Analyzer Team | All Rights Reserved</p>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
